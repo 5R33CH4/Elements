@@ -1,0 +1,55 @@
+{
+  "name": "Elements",
+  "version": "1.1.6",
+  "description": "A Periodic Table Viewer App For Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "de.5R33CH4.elements",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "icon@2x"
+    },
+    "win": {
+      "icon": "build/icon"
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "AppImage"
+      ],
+      "icon": "build/icons/",
+      "desktop": {
+        "Name": "Elements",
+        "Comment": "A Periodic Table Viewer App For Desktop",
+        "Categories": "Science;Chemistry;"
+      }
+    }
+  },
+  "repository": "https://github.com/5R33CH4/Elements",
+  "keywords": [
+    "translation",
+    "polymer",
+    "electron"
+  ],
+  "author": {
+    "name": "5R33CH4",
+    "email": "5r33ch4@yahoo.com",
+    "url": "https://github.com/5R33CH4"
+  },
+  "license": "CC-0",
+  "devDependencies": {
+    "electron": "^6.1.0",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-localshortcut": "^3.1.0",
+    "ipc": "0.0.1",
+    "lodash.debounce": "^4.0.8",
+    "path": "^0.12.7"
+  }
+}
