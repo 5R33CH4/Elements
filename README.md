@@ -46,7 +46,7 @@ npm run-script dist
   <tr>
     <td>Windows</td>
     <td>1.1.6</td>
-    <td><a href="https://github.com/5R33CH4/Elements/releases/download/v1.1.6/Elements.exe">Download</a></td>
+    <td><a href="https://github.com/5R33CH4/Elements/releases/download/v1.1.6/Elements-Setup.exe">Download</a></td>
   </tr>
 </table>
 
